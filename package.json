@@ -4,6 +4,9 @@
     "node": ">=16",
     "npm": ">=8.0.0"
   },
+  "workspaces": [
+    "packages/core"
+  ],
   "scripts": {
     "test": "mocha spec/*/*.spec.js",
     "lint": "npm run code:lint",
