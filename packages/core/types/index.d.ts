@@ -2708,7 +2708,7 @@ export namespace Table {
 export class AbstractNode implements Logging {
 
   node_name: string;
-  context: string
+  context: string;
 
   /**
    * Resolve the list of comma-delimited subs against the possible options.
