@@ -5,6 +5,7 @@
     "npm": ">=8.0.0"
   },
   "workspaces": [
+    "packages/asciidoctor",
     "packages/core"
   ],
   "scripts": {
